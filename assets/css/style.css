@@ -2065,7 +2065,7 @@ body a:focus, body a:hover {
   font-style: normal;
 }
 .social{  
-  margin-top: 12px!important;
+  margin-top: 10px!important;
   text-indent:0;
   display:block;
   color:#ffffff;
@@ -2113,6 +2113,15 @@ body a:focus, body a:hover {
   background-color:#0182c5;
 }
 .linklogin:active {
+  position:relative;
+}
+.gitlogin { 
+  background-color:#212121;  
+}
+.gitlogin:hover {
+  background-color:#414141;
+}
+.gitlogin:active {
   position:relative;
 }
 .login-content .sign-image_card {
