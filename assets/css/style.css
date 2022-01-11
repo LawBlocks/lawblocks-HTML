@@ -557,6 +557,18 @@ body a:hover {
     line-height: 24px;
   }
 }
+@media screen and (max-width: 768px) {
+  .affordable_resolution h3 {
+    font-size: 22px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 575px) {
+  .affordable_resolution h3 {
+    font-size: 19px;
+    line-height: 24px;
+  }
+}
 /*========================================================================
 	LBT Features
 =========================================================================*/
@@ -1286,6 +1298,15 @@ body a:hover {
     height: 50px;
   }
 }
+.about_area h3 {
+  font-size: 19px;
+  line-height: 24px;
+}
+.steps-block .icon {
+  width: 50px;
+  height: 50px;
+}
+
 /*========================================================================
 	lbt exchanges
 =========================================================================*/
@@ -2282,6 +2303,15 @@ body a:hover {
   background-color: #0182c5;
 }
 .linklogin:active {
+  position: relative;
+}
+.gitlogin {
+  background-color: #212121;
+}
+.gitlogin:hover {
+  background-color: #414141;
+}
+.gitlogin:active {
   position: relative;
 }
 .gitlogin {
