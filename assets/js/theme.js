@@ -26,7 +26,7 @@ For Mega menu and Mobile menu
 	/* ---------------------------------------------- */
 	LawBlocks.WowAnimation = function(){
 	var wow = new WOW({
-    	offset:50,        // distance to the element when triggering the animation (default is 0)
+    	offset:30,        // distance to the element when triggering the animation (default is 0)
     	//mobile:false       // trigger animations on mobile devices (default is true)
   	});
 	wow.init();
