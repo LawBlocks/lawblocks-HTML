@@ -261,6 +261,9 @@ body a:hover {
   background-color: #0d6efd;
   border-color: #0d6efd;
 }
+.ptb-80 {
+    padding: 80px 0;
+}
 .extra-pb {
   padding-bottom: 125px !important;
 }
@@ -467,7 +470,7 @@ body a:hover {
 .pages_banner h5 {
   font: 400 22px/28px "Inter", sans-serif;
   color: rgba(24, 24, 24, 0.6);
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 .pages_banner p {
   color: rgba(24, 24, 24, 0.6);
@@ -1686,7 +1689,7 @@ body a:hover {
   height: 16px;
   bottom: -16px;
 }
-.card {
+.team-block .card {
   height: 100%;
   border-radius: 15px;
   transition: all 0.1s ease-in-out;
@@ -1694,7 +1697,7 @@ body a:hover {
 }
 
 
-.card-body {
+.team-block .card-body {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -2254,6 +2257,129 @@ body a:hover {
 .dashoard-list li i {
     margin-right: 10px;
     margin-left: -22px;
+}
+
+
+
+
+
+
+
+.card {
+    border-radius: 10px;
+	height: 100%;
+}
+.card-header {
+    background-color: #f3f4f9;
+}
+.card-title {
+    margin: 0!important;
+	padding: 0!important;
+}
+.card-title a {
+    border-radius: 50px;
+	min-width: 106px;
+	text-align: center;
+	border: 1px solid rgba(0, 0, 0, .125);
+}
+.card-title a:hover {
+    text-decoration: none;
+	color: #FFFFFF!important;
+	background: #f5a505;
+}
+.card .media-body a{
+    font-size: 14px;
+}
+.card .media-body .docu-name {
+    font-size: 15px;
+	font-weight: 600;
+	color: rgba(24, 24, 24, 0.6);
+    display: inline-block;
+    vertical-align: bottom;
+}
+.card .media-body a {
+	color: rgb(145 145 203);
+}
+.card .media-body a:hover {
+	color: #007bff;
+}
+figure {
+    text-align: center;
+    width: 2.93906rem;
+    height: 2.93906rem;
+    padding: 0.5rem;
+    margin-bottom: 0px;
+    background-color: rgb(243 244 249);
+    border-radius: 0.25rem;
+}
+figure img {
+    width: 2rem;
+    height: 2rem;
+	border-radius: 50px;
+}
+.label {
+    color: #77838f!important;
+    background-color: rgba(255,255,255,1);
+	-webkit-box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%), 0 1px 2px rgb(0 0 0 / 5%);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 20%), 0 1px 2px rgb(0 0 0 / 5%);
+}
+.label {
+    display: inline-block;
+    font-size: .8125rem;
+    font-weight: 500;
+    line-height: 1.3;
+    padding: 0.525rem 1rem;
+    border-radius: 6.1875rem;
+    transition: .2s ease-in-out;
+}
+.card-header-title {
+    color: #47494f!important;
+    font-size: 19px!important;
+    font-weight: 600!important;
+    margin: 0!important;
+	padding: 0!important;
+    line-height: 22px!important;
+}
+.card-header:first-child {
+    border-radius: calc(.50rem - 1px) calc(.50rem - 1px) 0 0;
+	border-top-left-radius: .50rem;
+	border-top-right-radius: .50rem;
+}
+.hr-space {
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+    opacity: .75;
+}
+.hr-space:last-child {display:none;}
+.feature-content {
+ padding-left: 50px;
+}
+.feature-content h5 {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(33, 48, 91);  
+  margin-bottom: 10px;
+}
+.feature-content li a {
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(24, 24, 24, 0.6);
+  display: inline-block;
+}
+.feature-content li i {
+  color: rgba(24, 24, 24, 0.1);
+}
+@media (max-width: 991px) {
+	.feature-content {
+    	padding-left: 50px;
+    }
+}
+@media (max-width: 450px) {
+	.form-block-banner span {
+    	display: block;
+		margin: 10px 0px;
+	}
 }
 
 /*========================================================================
@@ -2997,6 +3123,11 @@ body a:hover {
     min-width: 150px;
   }
 }
+
+
+
+
+
 
 
 

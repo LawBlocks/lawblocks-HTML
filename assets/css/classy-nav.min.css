@@ -125,3 +125,43 @@
   .header-nav.inside-header .navbar-nav > li:hover > a:not(.nav-link-btn) + i { color: #254a81; }  
   .header-nav.inside-header .navbar-toggler span { background: #3a4587; }
  
+ 
+ 
+ 
+ 
+
+.navbar-profile ul.nav > li > a {
+  color: #777;
+  line-height: 50px;
+}
+.navbar-profile ul.nav > li .dropdown-menu {
+  right: 0;
+  left: auto;
+  top: 64px;
+  border: none;
+  min-width: 125px;
+  box-shadow: 0 10px 20px rgb(0 0 0 / 10%), 0 6px 6px rgb(0 0 0 / 10%);
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+}
+.dropdown-menu>li>a:hover {
+	background-color: #f7f8fa;
+	text-decoration: none;	
+}
+@media (max-width: 767px) {
+  .navbar-profile {
+    position: absolute;
+    display: inline-block;
+    /*width: auto;
+    right: 70px;
+    text-align: center;
+    margin: auto;*/
+  }
+}
