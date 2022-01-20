@@ -2270,7 +2270,8 @@ body a:hover {
 	height: 100%;
 }
 .card-header {
-    background-color: #f3f4f9;
+    padding: 0.75rem 1rem;
+	background-color: #f3f4f9;
 }
 .card-title {
     margin: 0!important;
@@ -2278,7 +2279,8 @@ body a:hover {
 }
 .card-title a {
     border-radius: 50px;
-	min-width: 106px;
+	font-size: 12px;
+    min-width: 135px;
 	text-align: center;
 	border: 1px solid rgba(0, 0, 0, .125);
 }
@@ -2352,31 +2354,54 @@ figure img {
     opacity: .75;
 }
 .hr-space:last-child {display:none;}
-.feature-content {
- padding-left: 50px;
+.popular-content {}
+.popular-tags {
+  padding-left: 50px;
 }
-.feature-content h5 {
+.popular-tags h5 {
   font-size: 18px;
   font-weight: 600;
   color: rgb(33, 48, 91);  
   margin-bottom: 10px;
 }
-.feature-content li a {
+.popular-tags li a {
   font-size: 15px;
   font-weight: 600;
   color: rgba(24, 24, 24, 0.6);
   display: inline-block;
 }
-.feature-content li a:hover {
+.popular-tags li a:hover {
     color: #007bff;
 }
-.feature-content li i {
+.popular-tags li i {
+  font-size: 15px;
   color: rgba(24, 24, 24, 0.1);
+  padding-right: 5px;
+}
+.form-block-banner span {
+  margin: 0px 10px;
 }
 @media (max-width: 991px) {
-	.feature-content {
+	.popular-tags {
     	padding-left: 50px;
     }
+}
+@media (max-width: 575px) {
+	.popular-content .col-lg-3 {
+    	width: 50%;
+	}
+	.popular-tags {
+    	padding-left: 0px;
+    }
+	.popular-tags h5 {
+    	font-size: 16px;
+	}
+	.popular-tags li a {
+    	font-size: 14px;
+	}
+	.popular-tags li i {
+	  display: none;
+	}
 }
 @media (max-width: 450px) {
 	.form-block-banner span {
@@ -2457,7 +2482,7 @@ figure img {
   max-width: 19.666667%;
 }
 .footer_area .footer_widget {
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 .footer_area .footer_widget h4 {
   font: 500 16px/1 "Inter", sans-serif;
@@ -2524,9 +2549,9 @@ figure img {
 .footer_social li a {
   display: inline-block;
   color: rgba(255, 255, 255, 0.6);
-  font-size: 18px;
-  line-height: 34px;
-  width: 34px;
+  font-size: 16px;
+  line-height: 30px;
+  width: 30px;
   text-align: center;
   background-color: #301ad3;
   border-radius: 10px;
