@@ -2367,6 +2367,9 @@ figure img {
   color: rgba(24, 24, 24, 0.6);
   display: inline-block;
 }
+.feature-content li a:hover {
+    color: #007bff;
+}
 .feature-content li i {
   color: rgba(24, 24, 24, 0.1);
 }
