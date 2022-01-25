@@ -763,10 +763,17 @@ body a:hover {
 }
 
 .work-process-list li:first-child {
-  min-height: calc(200px + (240 - 200) * ((100vw - 1366px) / (1920 - 1366)));
+  min-height: calc(190px + (230 - 190) * ((100vw - 1366px) / (1920 - 1366)));
 }
 .work-process-list li {
   min-height: 150px;
+}
+
+.work-process-list.four-steps li:first-child {
+  min-height: calc(120px + (160 - 120) * ((100vw - 1366px) / (1920 - 1366)));
+}
+.work-process-list.four-steps li {
+  min-height: 100px;
 }
 
 .work-process-list li,
@@ -790,6 +797,21 @@ body a:hover {
   -webkit-transform: translate(-50%, 50%);
   transform: translate(-50%, 50%);
   height: 150px;
+  /*z-index: -1;*/
+  border-style: dashed;
+  border-width: 1px;
+  border-color: #c9c9c9;
+  background-color: transparent;
+}
+.four-steps .process-icon-2:after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  width: 0;
+  right: 47%;
+  -webkit-transform: translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+  height: 110px;
   /*z-index: -1;*/
   border-style: dashed;
   border-width: 1px;
@@ -825,6 +847,10 @@ body a:hover {
   .work-process-list li:first-child .process-icon-2:after {
     height: 180px;
     top: -32px;
+  }
+  .four-steps .process-icon-2:after {
+    height: 110px!important;
+	top: 0px!important;
   }
   .work-process-list li {
     min-height: 150px;
@@ -2284,6 +2310,9 @@ body a:hover {
 	text-align: center;
 	border: 1px solid rgba(0, 0, 0, .125);
 }
+.card-title a:last-child {
+    margin-left: 5px;;
+}
 .card-title a:hover {
     text-decoration: none;
 	color: #FFFFFF!important;
@@ -2331,9 +2360,87 @@ figure img {
     font-size: .8125rem;
     font-weight: 500;
     line-height: 1.3;
+	text-decoration: none!important;
     padding: 0.525rem 1rem;
     border-radius: 6.1875rem;
     transition: .2s ease-in-out;
+}
+.label.label-primary {
+  background-color: #2196F3
+}
+
+.label.label-secondary {
+  background-color: #323a45;
+  color: #FFF;
+}
+
+.label.label-info {
+  color: #ffffff!important;
+  background-color: #29B6F6;
+}
+
+.label.label-success {
+  color: #ffffff!important;
+  text-decoration: none!important;
+  background-color: #5bb75b;
+}
+.label.label-success:hover {
+  color: #ffffff!important;
+  background-color: #2d8e2d;
+}
+.label.label-success:visited {
+    color: #ffffff!important;
+}
+
+.label.label-warning {
+  color: #ffffff!important;
+  background-color: #FFD600;
+}
+
+.label.label-danger {
+  color: #ffffff!important;
+  background-color: #ef1c1c;
+}
+
+.label.label-outlined {
+  border-width: 1px;
+  border-style: solid;
+  background-color: transparent
+}
+
+.label.label-outlined.label-default {
+  border-color: #B0BEC5;
+  color: #B0BEC5
+}
+
+.label.label-outlined.label-primary {
+  border-color: #2196F3;
+  color: #2196F3
+}
+
+.label.label-outlined.label-secondary {
+  border-color: #323a45;
+  color: #323a45
+}
+
+.label.label-outlined.label-info {
+  border-color: #29B6F6;
+  color: #29B6F6
+}
+
+.label.label-outlined.label-success {
+  border-color: #64DD17;
+  color: #64DD17
+}
+
+.label.label-outlined.label-warning {
+  border-color: #FFD600;
+  color: #FFD600
+}
+
+.label.label-outlined.label-danger {
+  border-color: #ef1c1c;
+  color: #ef1c1c
 }
 .card-header-title {
     color: #47494f!important;
@@ -2342,6 +2449,17 @@ figure img {
     margin: 0!important;
 	padding: 0!important;
     line-height: 22px!important;
+}
+.card-header-title.subtitle {
+    color: #47494f!important;
+    font-size: 20px!important;
+    font-weight: 600!important;
+    margin-bottom: 20px!important;
+	padding: 0!important;
+    line-height: 22px!important;
+}
+.card-header-title.subtitle span {
+    font-weight: 400!important;
 }
 .card-header:first-child {
     border-radius: calc(.50rem - 1px) calc(.50rem - 1px) 0 0;
@@ -2381,6 +2499,22 @@ figure img {
 .form-block-banner span {
   margin: 0px 10px;
 }
+
+.doc-content {
+	padding: 0px;
+}
+.doc-content p {
+	font-size: 14px;
+	line-height: 1.4;
+    margin-bottom: 1.2em;
+    word-wrap: break-word;
+	max-width: 100%;
+}
+
+.note-editor.note-frame .note-editing-area .note-editable {
+    min-height: 600px!important;
+}
+
 @media (max-width: 991px) {
 	.popular-tags {
     	padding-left: 50px;
