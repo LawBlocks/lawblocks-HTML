@@ -2500,6 +2500,9 @@ figure img {
   margin: 0px 10px;
 }
 
+.card-header-tabs .nav-item a {
+	color: #47494f!important;
+}
 .doc-content {
 	padding: 0px;
 }
@@ -2511,6 +2514,12 @@ figure img {
 	max-width: 100%;
 }
 
+.note-editor.note-frame {
+    border: 1px solid rgba(0, 0, 0, .125)!important;
+}
+.note-editor.note-frame .note-editing-area {
+    border-radius: 10px;!important;
+}
 .note-editor.note-frame .note-editing-area .note-editable {
     min-height: 600px!important;
 }
