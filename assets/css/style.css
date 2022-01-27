@@ -2521,7 +2521,7 @@ figure img {
     border-radius: 10px;!important;
 }
 .note-editor.note-frame .note-editing-area .note-editable {
-    min-height: 600px!important;
+    min-height: 590px!important;
 }
 
 @media (max-width: 991px) {
