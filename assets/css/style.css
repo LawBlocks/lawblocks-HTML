@@ -2554,6 +2554,10 @@ figure img {
     	display: block;
 		margin: 10px 0px;
 	}
+	.card-title a:last-child {
+    	margin-left: 0px;
+		margin-top: 8px;
+	}
 }
 
 /*========================================================================
