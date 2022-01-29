@@ -102,6 +102,35 @@ For Mega menu and Mobile menu
         });
     }
 	
+
+	/* ---------------------------------------------- /*
+	 * Magnificpopup
+	/* ---------------------------------------------- */
+    LawBlocks.magnificPopup = function() {
+        if ($('.popup-youtube, .open-popup-form, .partner_img').length) { 
+            //Video Popup
+            $('.popup-youtube').magnificPopup({
+                //disableOn: 700,
+                type: 'iframe',
+                mainClass: 'mfp-fade',
+                removalDelay: 160,
+                preloader: false, 
+                fixedContentPos: false,
+				 
+				callbacks: {
+					beforeOpen: function() {
+						$('body').addClass('mfp-active');
+					},
+					beforeClose: function() {
+						$('body').removeClass('mfp-active');
+					}
+				}
+				 
+            });
+        };
+    };
+	
+	
 	/* ---------------------------------------------- /*
 	 * Slider
 	/* ---------------------------------------------- */
@@ -200,6 +229,7 @@ For Mega menu and Mobile menu
 		LawBlocks.MegaMenu(),
 		LawBlocks.MenuColorChange(),
 		LawBlocks.OnePage(),
+		LawBlocks.magnificPopup(),
 		LawBlocks.testimonialSlider(),
 		LawBlocks.blogSlider(),
 		LawBlocks.scrollToTop()
