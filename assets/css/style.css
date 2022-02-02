@@ -1113,6 +1113,7 @@ body a:hover {
 .ecosytem_partners {
   display: block;
   padding: 70px 0 70px;
+
 }
 .ecosytem_partners p {
   max-width: 85%;
@@ -2605,29 +2606,74 @@ figure img {
 .form-block-banner span {
   margin: 0px 10px;
 }
-
 .card-header-tabs .nav-item a {
-  color: #47494f !important;
+  color: rgba(24, 24, 24, 0.6)!important;
+  font-weight: 500;
+}
+.card-header-tabs .nav-item.show .nav-link, .card-header-tabs .nav-link.active {
+    color: #47494f!important;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
 }
 .doc-content {
-  padding: 0px;
+	padding: 0px;
 }
 .doc-content p {
-  font-size: 14px;
-  line-height: 1.4;
-  margin-bottom: 1.2em;
-  word-wrap: break-word;
-  max-width: 100%;
+	font-size: 14px;
+	line-height: 2;
+    margin-bottom: 1.2em;
+    word-wrap: break-word;
+	color: rgba(24, 24, 24, 0.8)!important;
+	max-width: 100%;
 }
 
 .note-editor.note-frame {
-  border: 1px solid rgba(0, 0, 0, 0.125) !important;
+    border: 1px solid rgba(0, 0, 0, .125)!important;
 }
 .note-editor.note-frame .note-editing-area {
-  border-radius: 10px !important;
+    border-radius: 10px;!important;
 }
 .note-editor.note-frame .note-editing-area .note-editable {
-  min-height: 590px !important;
+    min-height: 590px!important;
+}
+
+.inlinefield {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: #000000;
+	height: 22px;
+    padding: 4px;
+    font-size: 13px;
+    line-height: 18px;
+    border: 1px solid #cccccc;
+	outline: none;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.doc-content .inlinefield:focus {
+    border-color: rgba(81, 203, 238, 1);
+}
+.doc-content .inlinefield:hover {
+    border-color: rgba(81, 203, 238, 1);
+}
+.doc-content .inlinefield.active {
+    border-color: rgba(81, 203, 238, 1);
+}
+.inlinefield::placeholder {
+  color: rgba(24, 24, 24, 0.4);
+}
+.field {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+	display: inline-block;
+    min-width: 30px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    text-indent: 0;
 }
 
 @media (max-width: 991px) {
@@ -2767,6 +2813,7 @@ figure img {
 .footer_area .copy_right p {
   color: rgba(36, 36, 37, 0.8);
   line-height: 38px;
+
 }
 .footer_area .copy_right p a:hover,
 .footer_area .copy_right p a:focus {
