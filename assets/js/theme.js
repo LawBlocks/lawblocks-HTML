@@ -164,31 +164,47 @@ For Mega menu and Mobile menu
 	/* ---------------------------------------------- */
 	LawBlocks.blogSlider = function(){ 
 	$('#recent-blogpost').owlCarousel({
-		            loop: true,
-		            items: 3,
-		            margin: 50,
-		            autoplay: true,
-		            nav:false,
-				    dots:true,
-		            autoplayTimeout: 8500,
-		            smartSpeed: 450,
-		            responsive: {
-		              0: {
-		                items: 1
-		              },
-		              768: {
-		                items: 2
-		              },
-					  991: {
-		                items: 3
-		              },
-		              1170: {
-		                items: 3
-		              }
-		            }
-		        });
+		loop: true,
+		items: 3,
+		margin: 50,
+		autoplay: true,
+		nav:false,
+		dots:true,
+		autoplayTimeout: 8500,
+		smartSpeed: 450,
+		responsive: {
+			0: {
+		    	items: 1
+		    },
+		    768: {
+		    	items: 2
+		    },
+			991: {
+		    	items: 3
+		    },
+		    1170: {
+		    	items: 3
+		    }
+		}
+		});
 	};
-  
+	
+	
+	
+	/* ---------------------------------------------- /*
+	 * Add More Field
+	/* ---------------------------------------------- */
+	LawBlocks.addMoreField = function() {
+		$(document).ready(function() {
+			$("#addmore").click(function() {
+				$("#req_input").append('<div class="required_inp"><input name="fname" placeholder="Text Field 1" type="text">' + '<input type="button" class="inputRemove" value="-"/></div>');
+			});
+			$('body').on('click', '.inputRemove', function() {
+				$(this).parent('div.required_inp').remove()
+			});
+		});
+	}
+	
 	
 	
 	/* ---------------------------------------------- /*
@@ -232,6 +248,7 @@ For Mega menu and Mobile menu
 		LawBlocks.magnificPopup(),
 		LawBlocks.testimonialSlider(),
 		LawBlocks.blogSlider(),
+		LawBlocks.addMoreField(),
 		LawBlocks.scrollToTop()
 	});
 
