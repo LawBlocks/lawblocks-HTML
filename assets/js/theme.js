@@ -197,7 +197,7 @@ For Mega menu and Mobile menu
 	LawBlocks.addMoreField = function() {
 		$(document).ready(function() {
 			$("#addmore").click(function() {
-				$("#req_input").append('<div class="required_inp"><input name="fname" placeholder="Text Field 1" type="text">' + '<input type="button" class="inputRemove" value="-"/></div>');
+				$("#req_input").append('<div class="required_inp"><input name="compulsoryfname" placeholder="Compulsory Field Name" type="text">' + '<input type="button" class="inputRemove" value="-"/></div>');
 			});
 			$('body').on('click', '.inputRemove', function() {
 				$(this).parent('div.required_inp').remove()
