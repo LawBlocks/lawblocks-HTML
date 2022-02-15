@@ -333,7 +333,7 @@ body a:hover {
   padding-bottom: 65px;
   border-bottom: 1px solid #eaeef6;
 }
-.banner_area h2 {
+.banner_area h1 {
   /*font: 500 45px/50px "Inter", sans-serif;*/
   font: 600 50px/60px "Inter", sans-serif;
   color: #254a81;
@@ -387,7 +387,7 @@ body a:hover {
   background-image: -webkit-linear-gradient(-90deg, #dd81ff 0%, #9570ff 100%);
   background-image: -ms-linear-gradient(-90deg, #dd81ff 0%, #9570ff 100%);
 }
-.ba_3 h2 {
+.ba_3 h1 {
   color: #fff;
   padding-top: 20px;
 }
@@ -447,7 +447,7 @@ body a:hover {
   padding-bottom: 55px;
   background: #f7f8fa;
 }
-.pages_banner h2 {
+.pages_banner h1 {
   /*font: 600 36px/46px "Inter", sans-serif;
   color: #222222;*/
   font: 600 44px/48px "Inter", sans-serif;
@@ -3235,7 +3235,7 @@ figure img {
   }
 }
 @media (max-width: 1199px) {
-  .banner_area h2 {
+  .banner_area h1 {
     font-size: 26px;
     line-height: 36px;
     padding-top: 0;
@@ -3363,7 +3363,7 @@ figure img {
     line-height: 30px;
   }
 
-  .banner_area h2 {
+  .banner_area h1 {
     font-size: calc(1.325rem + 2.1vw);
     line-height: 34px;
   }
@@ -3401,7 +3401,7 @@ figure img {
     display: none;
   }
 
-  .pages_banner h2 {
+  .pages_banner h1 {
     font-size: 26px;
     line-height: 30px;
   }
@@ -3489,7 +3489,7 @@ figure img {
   /*.banner_area {
     padding-top: 200px;
   }*/
-  .banner_area h2 {
+  .banner_area h1 {
     font-size: calc(1.325rem + 2.1vw);
     line-height: 34px;
   }
