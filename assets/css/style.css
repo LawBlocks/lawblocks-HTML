@@ -3087,13 +3087,13 @@ figure img {
 .gitlogin:active {
   position: relative;
 }
-.gitlogin {
-  background-color: #212121;
+.applelogin {
+  background-color: #303030;
 }
-.gitlogin:hover {
-  background-color: #414141;
+.applelogin:hover {
+  background-color: #454545;
 }
-.gitlogin:active {
+.applelogin:active {
   position: relative;
 }
 .login-content .sign-image_card {
