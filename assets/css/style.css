@@ -13,8 +13,6 @@
 /*Prefix Styles*/
 body {
   font-family: "Inter", sans-serif !important;
-  /*Section Fix*/
-  /*Ancore*/
 }
 body h1,
 body h2,
@@ -3570,4 +3568,51 @@ figure img {
     font-size: 16px !important;
     line-height: 22px;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*========================================================================
+	Language Selector Drpdown
+=========================================================================*/
+.dropdown-toggle.lan::after {
+  display: none;
+}
+.lan span {
+  color: #FFFFFF;
+}
+.fixed-header .lan span {
+  color: #6b6b6b;
+}
+.inside-header .lan span {
+  color: #6b6b6b;
+}
+.lan-menu {
+  min-width: 90px!important;
+  max-width: 90px!important;
+  right: -30px!important;
+}
+.lan-menu li img {
+  max-width: 20px;
+  margin-right: 5px;
+}
+@media (max-width: 991px) {
+  .lan span {color: #6b6b6b;}
 }
