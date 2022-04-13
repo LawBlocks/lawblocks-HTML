@@ -3584,7 +3584,19 @@ figure img {
 
 
 
-
+.card-title button {
+    border-radius: 50px;
+    font-size: 12px;
+    min-width: 135px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+	cursor: pointer;
+}
+.card-title button:hover {
+    text-decoration: none;
+    color: #ffffff !important;
+    background: #f5a505;
+}
 
 
 
@@ -3594,6 +3606,10 @@ figure img {
 =========================================================================*/
 .dropdown-toggle.lan::after {
   display: none;
+}
+.dropdown-menu.lan-menu>li>a.active {
+  background-color: #0d6efd;
+  color: #FFFFFF;
 }
 .lan span {
   color: #FFFFFF;
@@ -3613,6 +3629,26 @@ figure img {
   max-width: 20px;
   margin-right: 5px;
 }
+.lan-menu button {
+  display: block;
+  padding: 0px 19px;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
+  border: none;
+  background-color: transparent;
+}
+.lan-menu button:hover {
+  background-color: #f7f8fa;
+  cursor: pointer;
+}
+.lan-menu button.active {
+  background-color: #0d6efd;
+  color: #FFFFFF;
+}
+
 @media (max-width: 991px) {
   .lan span {color: #6b6b6b;}
 }
