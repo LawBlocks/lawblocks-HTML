@@ -7298,6 +7298,18 @@ section {
 	min-width: 1680px
 }
 
+.about__bg__1 {
+	position: absolute;
+	/*bottom: -420px;*/
+	bottom: -100px;
+	left: 0;
+	width: 100%;
+	-o-object-fit: cover;
+	object-fit: cover;
+	z-index: 1;
+	min-width: 1680px
+}
+
 .about p {
 	margin-bottom: 25px
 }
@@ -8993,6 +9005,9 @@ label.error {
 
 @media only screen and (min-width:1680px) {
 	.about__bg {
+		bottom: -500px
+	}
+	.about__bg__1 {
 		bottom: -500px
 	}
 	.cases__elements {
