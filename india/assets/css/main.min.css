@@ -8540,14 +8540,14 @@ label.error {
 	.team {
 		padding-bottom: 10px
 	}
-	.team-member {
+	/*.team-member {
 		display: -webkit-box;
 		display: -webkit-flex;
 		display: -ms-flexbox;
 		display: flex;
 		text-align: left;
 		margin-bottom: 50px
-	}
+	}*/
 	.team-member__avatar {
 		margin: 0
 	}
@@ -9562,3 +9562,48 @@ Margin Right
 .mr-80 { margin-right: 80px; }
 .mr-90 { margin-right: 90px; }
 .mr-100 { margin-right: 100px; }
+
+
+
+.team-member {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #777;
+}
+.team-member__ava {
+    margin: 0 auto 20px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.team-member__ava img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+.team-member__name {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+    line-height: 1;
+}
+.team-member__post {
+    font-size: 18px;
+    font-weight: 400;
+    color: #aab2cd;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+@media (min-width: 768px) {
+.team-member__ava {
+    margin-bottom: 30px;
+}
+}
