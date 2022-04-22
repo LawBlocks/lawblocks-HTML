@@ -9159,9 +9159,8 @@ label.error {
 }
 .lbt-features-col h3 {
   font: 600 24px/34px "Raleway", sans-serif;
-  line-height: 22px;
+  line-height: 28px;
   color: #FFFFFF;
-  line-height: 24px;
   padding-bottom: 30px !important;
 }
 .bg-primary-soft {
@@ -9622,3 +9621,31 @@ Margin Right
     margin-bottom: 30px;
 }
 }
+
+
+
+
+@media screen and (max-width: 991px) {
+.lbt-features-col.ico-offering {
+    width: 100%;
+}
+.lbt-features-col.ico-offering.left-radius {
+    border-radius: 1rem;
+}
+}
+.right-radius {border-radius: 1rem;}
+.prices__table1{display:table;width: 100%;}
+.prices__table-row1{display:table-row}
+.prices__table-row1:nth-child(odd){background-color:rgba(51, 60, 92, 0.85);-webkit-border-radius:4px;border-radius:4px}
+.prices__table-cell1{display:table-cell}
+.prices__table-cell1:first-child{width:40%;font-size:18px;color:#aab2cd;font-weight:700;line-height:20px;padding:12px 22px 12px 0px;}
+.prices__table-cell1:last-child{width:60%;color:#FFFFFF;padding:12px 0px 12px 0;}
+.prices__table-cell1.border-bottom{border-bottom: 2px solid #3e496e;}
+
+
+.prices__table{display:table;width:100%;}
+.prices__table-row{/*display:table-row;*/display:flex;width:100%;}
+.prices__table-row:nth-child(odd){background-color:rgba(51, 60, 92, 0.85);-webkit-border-radius:10px;border-radius:10px}
+.prices__table-cell{display:table-cell}
+.prices__table-cell:first-child{width:80%;font-size:18px;color:#aab2cd;font-weight:700;padding:12px 22px 12px 22px}
+.prices__table-cell:last-child{width:20%;color:#FFFFFF;padding:12px 22px 12px 0}
