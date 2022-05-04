@@ -5849,7 +5849,7 @@ h4 {
 
 section {
 	position: relative;
-	z-index: 1
+	/*z-index: 1*/
 }
 
 .section {
@@ -7920,7 +7920,7 @@ section {
 .team-member__post {
 	color: #545c79;
 	font-size: 16px;
-	margin-bottom: 17px;
+	margin-bottom: 10px;
 	line-height: 1
 }
 
@@ -9649,3 +9649,9 @@ Margin Right
 .prices__table-cell{display:table-cell}
 .prices__table-cell:first-child{width:80%;font-size:18px;color:#aab2cd;font-weight:700;padding:12px 22px 12px 22px}
 .prices__table-cell:last-child{width:20%;color:#FFFFFF;padding:12px 22px 12px 0}
+
+
+.video_block { display: block; margin: 0 auto; max-width: 770px; text-align: center; }
+.pop_video { border-radius: 10px; display: block; position: relative; z-index: 1; }
+.pop_video img { max-width: 100%; border-radius: 10px; }
+.pop_video .video-play-button { left: 50%; }
