@@ -1916,6 +1916,7 @@ body a:hover {
   -webkit-box-shadow: 0 0 25px 0 rgb(182 187 202 / 15%);
   -moz-box-shadow: 0 0 25px 0 rgba(182, 187, 202, 0.15);
   box-shadow: 0 0 25px 0 rgb(182 187 202 / 15%);
+  height: 100%;
 }
 .tokenmetrics_block h2 {
   font: 500 28px/34px "Inter", sans-serif;
@@ -1924,8 +1925,73 @@ body a:hover {
 }
 .tokenmetrics_block p {
   font-weight: 500;
-  line-height: 22px;
+  line-height: 26px;
 }
+
+
+
+
+
+
+
+.tokenmetrics_block .media {
+  padding: 0px;
+  background: #ffffff;
+  margin-top: 0px;
+  max-width: 560px;
+}
+.tokenmetrics_block .media .media-left .c_1 {
+  background: #ff4500;
+}
+.tokenmetrics_block .media .media-left .c_2 {
+  background: #5865f2;
+}
+.tokenmetrics_block .media .media-left i {
+  color: #fff;
+  font-size: 26px;
+  line-height: 56px;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  text-align: center;
+  background-image: -moz-linear-gradient(113deg, #bb9cf5 0%, #6255ff 100%);
+  background-image: -webkit-linear-gradient(113deg, #bb9cf5 0%, #6255ff 100%);
+  background-image: -ms-linear-gradient(113deg, #bb9cf5 0%, #6255ff 100%);
+}
+.tokenmetrics_block .media .media-body {
+  padding-left: 20px;
+}
+.tokenmetrics_block .media .media-body .heding {
+  display: block;
+  font: 600 24px/26px "Inter", sans-serif;
+  color: #254a81;
+  padding-bottom: 12px;
+}
+.tokenmetrics_block .media .media-body p {
+  font-size: 16px;
+  padding-top: 0;
+  padding-bottom: 10px;
+}
+.tokenmetrics_block .media .media-body a {
+  font-weight: 400;
+  position: relative;
+  text-decoration: none;
+}
+.tokenmetrics_block .media .media-body a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(82, 0, 198, 0.17);
+}
+
+
+
+
+
+
 
 #pieChart {
   min-width: 310px;
