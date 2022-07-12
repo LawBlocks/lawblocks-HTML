@@ -1686,6 +1686,42 @@ body a:hover {
   padding-left: 6px;
 }
 
+
+.lbt_exchanges .wallet_item .exchange-image {
+  width: 80%;
+  height: auto;
+}
+.lbt_exchanges .wallet_item .pair {
+  margin-top: 25px;
+}
+.lbt_exchanges .wallet_item .pair a span {
+  color: rgba(24, 24, 24, 0.6) !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+}
+.lbt_exchanges .wallet_item .pair a {
+  color: rgba(24, 24, 24, 0.6) !important;
+  font-size: 16px !important;
+  line-height: 22px !important;
+  margin-bottom: 0.5rem !important;
+  text-decoration: none;
+}
+.lbt_exchanges .wallet_item .pair a:visited {
+	color: rgba(24, 24, 24, 0.6);
+	text-decoration: none;
+}
+.lbt_exchanges .wallet_item .pair a:active {
+	color: rgba(24, 24, 24, 0.6);
+	outline: none;
+	text-decoration: underline;
+}
+.lbt_exchanges .wallet_item .pair a:hover {
+	color: rgba(24, 24, 24, 0.6);
+	outline: none;
+	text-decoration: underline;
+}
+
+
 @media (max-width: 991px) and (min-width: 768px) {
   .exchanges_item {
     width: 33% !important;
