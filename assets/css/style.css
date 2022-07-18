@@ -2154,7 +2154,7 @@ body a:hover {
   padding-bottom: 15px;
 }
 .support-block .media {
-  padding: 30px 15px 25px;
+  padding: 30px 15px 5px;
   background: #ffffff;
   margin-top: 20px;
   max-width: 560px;
