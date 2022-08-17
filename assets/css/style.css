@@ -1843,14 +1843,14 @@ body a:hover {
 	Team Area
 =========================================================================*/
 .team-block {
+  height: 100%;
   border-radius: 15px;
   border: 2px solid transparent;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 .team-block:hover {
-  -webkit-box-shadow: 0 20px 20px 0 rgb(2 19 79 / 9%);
-  box-shadow: 0 20px 20px 0 rgb(2 19 79 / 9%);
+  border-color: #e3e6ed;
 }
 .team-block:before,
 .team-block:after {
@@ -1901,7 +1901,8 @@ body a:hover {
   font-weight: 600 !important;
 }
 .profile-designation {
-  color: rgba(24, 24, 24, 0.6) !important;
+  /*color: rgba(24, 24, 24, 0.6) !important;*/
+  color: #f5a505 !important;
   font-size: 17px !important;
   line-height: 23px !important;
   margin-bottom: 0.5rem !important;
